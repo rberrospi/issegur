@@ -1,0 +1,134 @@
+
+body {
+	background-image: url("../img/bg.png");
+
+}
+
+.sm {	
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.logo {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.logo img {
+	padding-top: 25px;
+	text-align: center;
+}
+
+.pt70 {
+	padding-top: 77px;
+}
+
+.pt99 {
+	padding-top: 109px;
+}
+
+.pt105 {
+	padding-top: 106px;
+}
+
+
+.privada {
+	background: url(../img/sprivada.png) no-repeat;
+	height: 448px;
+	width: 455px;
+	display: block;
+	margin: 0 auto;
+}
+
+.img_privada {
+	background: url(../img/sprivadah.png) no-repeat;
+	height: 448px;
+	width: 455px;
+	transition: opacity .8s; 
+	-moz-transition: opacity .8s; 
+	-webkit-transition: opacity .8s; 
+	opacity:0;	
+}
+.img_privada:hover{
+	opacity: 1;
+}
+
+.safety {
+	background: url(../img/saludocupacional.png) no-repeat;
+	height: 417px;
+	width: 416px;
+	display: block;
+	margin: 0 auto;
+}
+
+.img_safety {
+	background: url(../img/saludocupacionalh.png) no-repeat;
+	height: 417px;
+	width: 416px;
+	transition: opacity .8s; 
+	-moz-transition: opacity .8s; 
+	-webkit-transition: opacity .8s; 
+	opacity:0;	
+}
+.img_safety:hover{
+	opacity: 1;
+}
+
+.ciudadana {
+	background: url(../img/sciudadana.png) no-repeat;
+	height: 419px;
+	width: 464px;
+	display: block;
+	margin: 0 auto;
+}
+
+.img_ciudadana {
+	background: url(../img/sciudadanah.png) no-repeat;
+	height: 419px;
+	width: 464px;
+	transition: opacity .8s; 
+	-moz-transition: opacity .8s; 
+	-webkit-transition: opacity .8s; 
+	opacity:0;	
+}
+.img_ciudadana:hover{
+	opacity: 1;
+}
+
+.footer {
+	bottom: 0px;
+	height: 150px;
+	background-color: #333;
+}
+
+.container p {
+	padding-top: 15px;
+	color: #fff;
+}
+
+@media all and (min-width: 1023px) {
+.privada {
+	background-size: 75%;
+}
+
+.img_privada {
+	background-size: 75%;
+}
+
+.safety {
+	background-size: 73%;;
+}
+
+.img_safety {
+	background-size: 73%;
+}
+
+.ciudadana {
+	background-size: 73%;
+}
+
+.img_ciudadana {
+	background-size: 73%;
+}
+
+}
