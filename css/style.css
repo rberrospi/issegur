@@ -2,14 +2,12 @@
 body {
 	background-image: url("../img/bg.png");
 	height:100%;
-	display: table;
 }
 
 .logo {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	width: 300px;
-	margin: 0 auto;
+	margin: 0S auto;
 }
 
 .blue {
@@ -23,14 +21,21 @@ body {
 .resolucion {
 	padding-top: 30px;
 	padding-bottom: 20px;
-	width: 218px;
+	width: 150px;
 	margin: 0 auto;
 }
 
-.aula {
+.induccion {
 	padding-top: 30px;
 	padding-bottom: 20px;
-	width: 198px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+.aula{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	width: 150px;
 	margin: 0 auto;
 }
 
@@ -42,10 +47,9 @@ footer {
 	margin-right: -15px;
 }
 
-.clase-general {
-  display: table-row;
+.secciones  img {
+	width: 100%;
 }
-
 
 .text {
 	color: #fff;	
@@ -55,9 +59,6 @@ footer {
 }
 
 
-.container-fluid {
-	display: block;
-}
 .container-fluid .row div img {
 	width: 100%
 }
