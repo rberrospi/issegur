@@ -5,9 +5,9 @@ body {
 }
 
 .logo {
-	padding-top: 20px;
+	padding-top: 25px;
 	padding-bottom: 20px;
-	margin: 0S auto;
+	margin: 0 auto;
 }
 
 .blue {
@@ -19,24 +19,38 @@ body {
 }
 
 .resolucion {
-	padding-top: 30px;
+	padding-top: 22px;
 	padding-bottom: 20px;
-	width: 150px;
+	width: 200px;
 	margin: 0 auto;
 }
 
 .induccion {
-	padding-top: 30px;
+	padding-top: 24px;
 	padding-bottom: 20px;
 	width: 250px;
 	margin: 0 auto;
 }
 
 .aula{
-	padding-top: 30px;
+	padding-top: 25px;
 	padding-bottom: 20px;
 	width: 150px;
 	margin: 0 auto;
+}
+
+.container-fluid .blue a:nth-child(1) div img{
+	width: auto;
+}
+
+.container-fluid .blue a:nth-child(2) div img{
+	width: 100%;
+}
+.container-fluid .blue a:nth-child(3) div img{
+	width: 100%;
+}
+.container-fluid .blue a:nth-child(4) div img{
+	width: 100%;
 }
 
 footer {
@@ -53,18 +67,14 @@ footer {
 
 .text {
 	color: #fff;	
-	height: 80px;
+	height: 60px;
 	text-align: center;
 	padding-top: 15px;
 }
 
 
-.container-fluid .row div img {
-	width: 100%
-}
-
 .link {
-	margin-top: -50px;
+	margin-top: -70px;
 	text-align: center;
 }
 
